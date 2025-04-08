@@ -35,3 +35,46 @@
                 </div>
             </div>
             
+            <div class="form-group">
+                <label>Ingredients (Select at least 2):</label>
+                <div class="ingredients">
+                    <input type="checkbox" id="banana" value="banana">
+                    <label for="banana">Banana</label>
+                    
+                    <input type="checkbox" id="strawberry" value="strawberry">
+                    <label for="strawberry">Strawberry</label>
+                    
+                    <input type="checkbox" id="blueberry" value="blueberry">
+                    <label for="blueberry">Blueberry</label>
+                    
+                    <input type="checkbox" id="mango" value="mango">
+                    <label for="mango">Mango</label>
+                    
+                    <input type="checkbox" id="spinach" value="spinach">
+                    <label for="spinach">Spinach</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="sweetener">Sweetener:</label>
+                <select id="sweetener">
+                    <option value="none">None</option>
+                    <option value="sugar" selected>Sugar</option>
+                    <option value="honey">Honey</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            
+            <button type="submit" id="orderBtn">Order Smoothie</button>
+        </form>
+        
+        <div id="smoothieOutput" class="output"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
